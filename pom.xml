@@ -3,15 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <artifactId>cass-to-bq-template</artifactId>
+  <groupId>com.mothukuri</groupId>
+  <artifactId>java-examples</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Cassandra to BigQuery</name>
-  <description>
-    Cassandra to BigQuery
-  </description>
+  <name>Java Examples</name>
+  <description>Java Examples</description>
 
-  <dependencyManagement>
+  <!-- <dependencyManagement>
       <dependencies>
         <dependency>
           <groupId>org.apache.beam</groupId>
@@ -21,11 +19,11 @@
           <scope>import</scope>
         </dependency>
       </dependencies>
-  </dependencyManagement>
+  </dependencyManagement> -->
 
   <dependencies>
     <!-- Beam -->
-    <dependency>
+    <!-- <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-sdks-java-core</artifactId>
     </dependency>
@@ -46,8 +44,8 @@
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-sdks-java-extensions-protobuf</artifactId>
-    </dependency>
-    <dependency>
+    </dependency> -->
+    <!-- <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
     </dependency>
@@ -59,7 +57,6 @@
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-sdks-java-io-jdbc</artifactId>
     </dependency>
-
     <dependency>
       <groupId>org.apache.beam</groupId>
       <artifactId>beam-sdks-java-io-cassandra</artifactId>
@@ -68,8 +65,8 @@
           <groupId>com.github.jnr</groupId>
           <artifactId>jffi</artifactId>
         </exclusion>
-      </exclusions>
-    </dependency>
+      </exclusions> -->
+    <!-- </dependency>
 
     <dependency>
       <groupId>com.datastax.cassandra</groupId>
@@ -88,7 +85,7 @@
       <artifactId>cql-antlr</artifactId>
       <version>${scassandra.version}</version>
       <scope>test</scope>
-    </dependency>
+    </dependency> -->
 
-
+  </dependencies>
 </project>
