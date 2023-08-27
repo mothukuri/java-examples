@@ -1,1 +1,1 @@
-# java-examples
+# cass-to-bq-template
