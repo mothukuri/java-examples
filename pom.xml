@@ -86,6 +86,15 @@
       <version>${scassandra.version}</version>
       <scope>test</scope>
     </dependency> -->
+    
+    <!-- Test dependencies -->
+    <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.0</version>
+    <scope>test</scope>
+</dependency>
+
 
   </dependencies>
 </project>
