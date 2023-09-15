@@ -2,8 +2,8 @@ package com.mothukuri.util;
 
 import java.math.BigDecimal;
 
-public class BigDecimalUtil {
-    public static boolean compare(BigDecimal one, BigDecimal other) {
+public class BigDecimalUtils {
+    public static int compare(BigDecimal one, BigDecimal other) {
         if (one == null && other == null)
             return 0;
         if (one == null)
